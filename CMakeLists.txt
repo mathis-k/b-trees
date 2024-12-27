@@ -26,10 +26,10 @@ file(GLOB_RECURSE SRCS "*.cpp")
 
 
 # Add the executable for the main program
-add_executable(btrees
+add_executable(bplustrees
         bplustrees.cpp
-        exceptions.cpp
         main.cpp
+        exceptions.cpp
 )
 
 # Set the output directory for the executable
